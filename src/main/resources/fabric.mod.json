@@ -17,6 +17,9 @@
     ],
     "main": [
       "net.flandre923.genshinimpactmod.GenshinImpactMod"
+    ],
+    "fabric-datagen": [
+      "net.flandre923.genshinimpactmod.data.FabricDatagenInitializer"
     ]
   },
   "mixins": [
