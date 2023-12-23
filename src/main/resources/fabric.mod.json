@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "genshinimpactmod",
+  "version": "${version}",
+  "name": "GenshinImpactMod",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/flan/GenshinImpactMod"
+  },
+  "license": "MIT",
+  "icon": "assets/genshinimpactmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "net.flandre923.genshinimpactmod.client.GenshinImpactModClient"
+    ],
+    "main": [
+      "net.flandre923.genshinimpactmod.GenshinImpactMod"
+    ]
+  },
+  "mixins": [
+    "genshinimpactmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
